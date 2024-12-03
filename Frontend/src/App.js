@@ -79,6 +79,7 @@ import Instructor_Login from './Components/Instructor_Login';
 import Checkout from './Components/Checkout';
 import ForgetPassword from "./Components/Pages/ForgetPassword";
 import ChangePassword from "./Components/Pages/ChangePassword";
+import ProductDetals from "./Components/ProductDetals";
 
 
 function App() {
@@ -237,7 +238,7 @@ Student Dashboard Route Start */}
 <Route path="/admin-review" element={<AdminReview/>} />
 <Route path="/admin-seating" element={<AdminSeating/>} />
 <Route path="/AdminError" element={<AdminError404/>} />
-
+<Route path="/productdetals" element={<ProductDetals/>} />
 
           <Route path="*" element={<Navigate to="/" />} />
          
